@@ -1,6 +1,8 @@
+
 import './App.css';
 import Counter from "./Counter";
 import CounterTwo from './CounterTwo';
+import AddingCounter from './AddingCounter';
 
 function App() {
 
@@ -11,8 +13,7 @@ function App() {
     <div className="App">
       <Counter />
       <CounterTwo />
-
-
+      <AddingCounter/>
 
 
 
