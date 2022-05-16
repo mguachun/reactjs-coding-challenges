@@ -5,6 +5,7 @@ import CounterTwo from './CounterTwo';
 import AddingCounter from './AddingCounter';
 import Users from './Users';
 import FetchData from './FetchData';
+import DisableBtn from './DisableBtn';
 function App() {
 
 
@@ -17,6 +18,7 @@ function App() {
       <AddingCounter/>
       <Users />
       <FetchData />
+      <DisableBtn />
 
 
 
