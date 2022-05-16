@@ -1,12 +1,12 @@
 import React from "react";
 function DisableBtn() {
-    const [] = React.useState("");
+    const [value, setValue] = React.useState("");
   
     return (
       <>
         <h3>Disable Button Challenge</h3>
-        <input type="text" />
-        <button>Submit</button>
+        <input type="text" onChange={(e) => setValue(e.target.value)}/>
+        <button disabled={value.length < 1}>Submit</button>
       </>
     );
   }
