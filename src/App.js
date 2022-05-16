@@ -4,6 +4,7 @@ import Counter from "./Counter";
 import CounterTwo from './CounterTwo';
 import AddingCounter from './AddingCounter';
 import Users from './Users';
+import FetchData from './FetchData';
 function App() {
 
 
@@ -15,6 +16,7 @@ function App() {
       <CounterTwo />
       <AddingCounter/>
       <Users />
+      <FetchData />
 
 
 
