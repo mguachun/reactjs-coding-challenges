@@ -3,7 +3,7 @@ import './App.css';
 import Counter from "./Counter";
 import CounterTwo from './CounterTwo';
 import AddingCounter from './AddingCounter';
-
+import Users from './Users';
 function App() {
 
 
@@ -14,6 +14,7 @@ function App() {
       <Counter />
       <CounterTwo />
       <AddingCounter/>
+      <Users />
 
 
 
