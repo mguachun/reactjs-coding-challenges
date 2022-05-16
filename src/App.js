@@ -6,11 +6,8 @@ import AddingCounter from './AddingCounter';
 import Users from './Users';
 import FetchData from './FetchData';
 import DisableBtn from './DisableBtn';
+import HideElement from './HideElement';
 function App() {
-
-
-
-
   return (
     <div className="App">
       <Counter />
@@ -19,6 +16,7 @@ function App() {
       <Users />
       <FetchData />
       <DisableBtn />
+      <HideElement />
 
 
 
